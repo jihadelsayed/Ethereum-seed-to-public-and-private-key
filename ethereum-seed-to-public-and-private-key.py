@@ -16,7 +16,7 @@ def copyRight(self):
             """ + colors.END)
 
 # Replace with your mnemonic phrase
-#mnemonic_phrase = input("Please enter your seed phrase: ")
+mnemonic_phrase = input("Please enter your seed phrase: ")
 
 # Generate seed from mnemonic
 mnemo = Mnemonic("english")
