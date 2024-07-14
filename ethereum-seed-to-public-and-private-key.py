@@ -5,7 +5,7 @@ from eth_account import Account
 import hashlib
 os.system('color')
 def copyRight():
-        print(colors.HEADER + """"
+        print('\033[95m' + """"
             ____   __ __       ____  ____  __ __   ____  ___          ___  _           _____  ____  __ __    ___  ___   
             |    \ |  |  |     |    ||    ||  |  | /    ||   \        /  _]| |         / ___/ /    ||  |  |  /  _]|   \  
             |  o  )|  |  |     |__  | |  | |  |  ||  o  ||    \      /  [_ | |        (   \_ |  o  ||  |  | /  [_ |    \ 
@@ -14,7 +14,7 @@ def copyRight():
             |     ||     |    \  `  | |  | |  |  ||  |  ||     |    |     ||     |     \    ||  |  ||     ||     ||     |
             |_____||____/      \____||____||__|__||__|__||_____|    |_____||_____|      \___||__|__||____/ |_____||_____|
             look at www.neetechs.com for more script
-            """ + colors.END)
+            """ + '\033[0m')
 
 # Replace with your mnemonic phrase
 mnemonic_phrase = input("Please enter your seed phrase: ")
