@@ -18,7 +18,7 @@ A simple script to generate Ethereum keypairs and derive public keys from mnemon
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jihadelsayed/ethereum-keypair-generator.git
+   git clone https://github.com/jihadelsayed/BreadcrumbsEthereum-seed-to-public-and-private-key.git
    cd ethereum-keypair-generator
    ```
 
