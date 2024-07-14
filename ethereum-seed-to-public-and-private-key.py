@@ -3,7 +3,7 @@ from bip32 import BIP32, HARDENED_INDEX
 from eth_account import Account
 import hashlib
 
-def copyRight(self):
+def copyRight():
         print(colors.HEADER + """"
             ____   __ __       ____  ____  __ __   ____  ___          ___  _           _____  ____  __ __    ___  ___   
             |    \ |  |  |     |    ||    ||  |  | /    ||   \        /  _]| |         / ___/ /    ||  |  |  /  _]|   \  
