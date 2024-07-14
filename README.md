@@ -31,7 +31,7 @@ A simple script to generate Ethereum keypairs and derive public keys from mnemon
 
 1. Run the script:
    ```bash
-   python ethereum_keypair_generator.py
+   python ethereum-seed-to-public-and-private-key.py
    ```
 
 2. Enter your mnemonic phrase when prompted:
